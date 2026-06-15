@@ -21,7 +21,7 @@ Gate-Level Simulation (GLS) confirms structural and physical timing integrity.
 ## Directory Structure
 * `src/` - Verilog RTL source files.
 * `sim/` - SystemVerilog testbench for continuous assertion.
-* `openlane/` - Synthesis and routing configurations (`config.tcl`).
+* `openlane/` - constraint file and .json file.
 * `docs/` - GDSII layout captures and terminal execution logs.
 
 ## References
