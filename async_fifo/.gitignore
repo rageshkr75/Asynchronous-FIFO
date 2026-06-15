@@ -1,0 +1,16 @@
+# Compiled Simulation Binaries
+*.vvp
+*.out
+
+# Massive Waveform Dumps
+*.vcd
+*.fsdb
+*.fst
+
+# OpenLane Auto-Generated Build Folders (CRITICAL to ignore)
+runs/
+
+# Local PDK and Tool Configurations
+.ciel/
+__pycache__/
+*.log

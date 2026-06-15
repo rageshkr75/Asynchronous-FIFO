@@ -1,0 +1,19 @@
+{
+    "DESIGN_NAME": "top_fifo",
+    "VERILOG_FILES": [
+        "dir::src/top_fifo.v",
+        "dir::src/fifo.v",
+        "dir::src/wptr_full.v",
+        "dir::src/rptr_empty.v",
+        "dir::src/sync_w2r.v",
+        "dir::src/sync_r2w.v"
+    ],
+    "CLOCK_PORT": ["wclk", "rclk"],
+    "CLOCK_PERIOD": 1.0,  
+    "BASE_SDC_FILE": "dir::constraint.sdc",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 120 120", 
+    "PL_TARGET_DENSITY": 0.75,
+    "SYNTH_NO_FLAT": 0,
+    "DIODE_INSERTION_STRATEGY": 3
+}
