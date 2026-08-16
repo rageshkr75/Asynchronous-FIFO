@@ -12,15 +12,14 @@ Physical implementation of a dual-clock asynchronous FIFO targeting the Skywater
 
 ## Verification Status: Tape-Out Ready
 Gate-Level Simulation (GLS) confirms structural and physical timing integrity.
-* **Methodology:** Continuous functional assertion of the routed netlist against a behavioral golden reference model.
+* **Methodology:** Verification of the routed netlist against a behavioral golden reference model.
 * **Timing Checks:** SDF back-annotation applied (Typical PVT corner). 
 * **Power-Aware Simulation:** Physical power and ground pins (`VPWR`, `VGND`) explicitly driven to validate setup/hold limits and verify X-state suppression.
-* **Test Stimulus:** Concurrent `fork/join` read/write stress threads maximizing throughput.
 * **Result:** 0 functional mismatches; 0 timing violations.
 
 ## Directory Structure
 * `src/` - Verilog RTL source files.
-* `sim/` - SystemVerilog testbench for continuous assertion.
+* `sim/` - Testbench File.
 * `openlane/` - constraint file and .json file.
 * `docs/` - GDSII layout captures and terminal execution logs.
 
