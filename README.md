@@ -10,7 +10,7 @@ Physical implementation of a dual-clock asynchronous FIFO targeting the Skywater
 * **Process Node:** Skywater 130nm (`sky130A`).
 * **Standard Cell Library:** `sky130_fd_sc_hd`.
 
-## Verification Status: Tape-Out Ready
+## Verification Details
 Gate-Level Simulation (GLS) confirms structural and physical timing integrity.
 * **Methodology:** Verification of the routed netlist against a behavioral golden reference model.
 * **Timing Checks:** SDF back-annotation applied (Typical PVT corner). 
