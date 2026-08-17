@@ -49,7 +49,7 @@ module tb_fifo_gls;
         $display("----------------------------------------");
         $display("[GLS] Annotating SDF Delays...");
         $display("----------------------------------------");
-        // Ensure this path matches your exact OpenLane output directory
+        
         $sdf_annotate("runs/RUN_2026.06.14_11.17.33/results/final/sdf/multicorner/nom/top_fifo.Typical.sdf", dut);
     end
     `endif
